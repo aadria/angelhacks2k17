@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <meta charset="utf-8">
+    <title>Maap | Overview</title>
+    <!-- title page , about the app, -->
+  </head>
+  <body>
+    <center><img id= "logo" src="resources/images/logo.png"><center>
+    <div id= "intro">
+      <p id= "name"> getFit </p>
+    </div>
+    <!-- <a href="user.html">
+      <center><img src="resources/images/button_get-started.png" alt="Get started!"></center>
+    </a> -->
+      
+  <a href="/contact.html">
+      <center><img src="resources/images/aboutus.png"
+      onmouseover="this.src='resources/images/aboutus.png'"
+      onmouseout="this.src='resources/images/aboutus.png'"
+      border="0" alt="contact"/></center>
+    
+  <a href="/aboutus.html">
+      <center><img src="resources/images/contact.png"
+      onmouseover="this.src='resources/images/contact.png'"
+      onmouseout="this.src='resources/images/contact.png'"
+      border="0" alt="abtus"/></center>
+
+    <a href="/search.html">
+      <center><img src="resources/images/buttonget-started.png"
+      onmouseover="this.src='resources/images/change_button.png'"
+      onmouseout="this.src='resources/images/buttonget-started.png'"
+      border="0" alt="Find Your Event with Your Preferences"/></center>
+    </a>
+  </body>
+</html>

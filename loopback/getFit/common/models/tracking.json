@@ -1,0 +1,38 @@
+{
+  "name": "tracking",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "dailyTime": {
+      "type": "number",
+      "required": true
+    },
+    "dailyPoints": {
+      "type": "number",
+      "required": true
+    } ,
+    "weeklyTime": {
+      "type": "number"
+    },
+    "weeklyPoints": {
+      "type": "number"
+    },
+    "monthlyTime": {
+      "type": "number"
+    },
+    "monthlyPoints": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

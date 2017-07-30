@@ -1115,6 +1115,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="8KF-4a-Jbr" kind="show" animates="NO" id="FPe-XU-jUh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1830,10 +1833,11 @@
         <image name="user" width="704" height="699"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RLw-RF-dlo"/>
+        <segue reference="uMD-Wq-9OQ"/>
+        <segue reference="FPe-XU-jUh"/>
+        <segue reference="xCQ-PO-kHD"/>
+        <segue reference="ybY-ml-H6K"/>
         <segue reference="To6-IF-18H"/>
-        <segue reference="8ft-Je-Hdi"/>
-        <segue reference="Weu-wl-5Cv"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.36848388313743852" green="0.59822408842165065" blue="0.90378076424870468" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

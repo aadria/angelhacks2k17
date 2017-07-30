@@ -37,6 +37,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
 //            locationManager.startUpdatingLocation()
         }
+        
     }
 
     override func didReceiveMemoryWarning() {

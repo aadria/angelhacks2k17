@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="31.884057971014496" y="37.5"/>
+            <point key="canvasLocation" x="32" y="27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lW2-Pg-sWL">
@@ -146,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tfe-JE-Wxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="885.50724637681162" y="37.5"/>
+            <point key="canvasLocation" x="886" y="27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uhC-Vg-zgZ">
@@ -213,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhX-46-0DU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1700.0000000000002" y="37.5"/>
+            <point key="canvasLocation" x="1700" y="27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qF0-uG-Alc">
@@ -442,7 +442,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZlC-mk-qgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2589.8550724637685" y="37.5"/>
+            <point key="canvasLocation" x="2593" y="27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Gop-xI-APC">
@@ -505,7 +505,7 @@
                                 <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="GOOGLE">
+                                        <fragment content="NVIDIA">
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.95205522822438637" green="0.99657746879605402" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -827,7 +827,7 @@
                                 <color key="backgroundColor" red="0.55678772926330566" green="0.55682563781738281" blue="0.56087559461593628" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="GOOGLE">
+                                        <fragment content="NVIDIA">
                                             <attributes>
                                                 <color key="NSBackgroundColor" red="0.95205522822438637" green="0.99657746879605402" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1085,7 +1085,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fXU-N1-5Oa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5922" y="51"/>
+            <point key="canvasLocation" x="5939" y="27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SSW-Rs-HRV">
@@ -1546,7 +1546,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LOG-Nv-uCW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3416" y="38"/>
+            <point key="canvasLocation" x="3422" y="27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iJT-01-SZa">
@@ -1775,7 +1775,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TsN-Ko-1JS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4281" y="38"/>
+            <point key="canvasLocation" x="4281" y="27"/>
         </scene>
     </scenes>
     <resources>
@@ -1792,10 +1792,10 @@
         <image name="user" width="704" height="699"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Weu-wl-5Cv"/>
-        <segue reference="aC5-nu-3hl"/>
         <segue reference="wrv-Vp-qGE"/>
+        <segue reference="8ft-Je-Hdi"/>
         <segue reference="To6-IF-18H"/>
+        <segue reference="Weu-wl-5Cv"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.36848388313743852" green="0.59822408842165065" blue="0.90378076424870468" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

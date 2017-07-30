@@ -15,11 +15,10 @@ import MapKit
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
     let locationManager = CLLocationManager()
+    let tabBar = UITabBar()
+    
+    //locationManager.requestLocation()
 
-    @IBAction func clickMe(_ sender: Any) {
-        self.alert(message: "baker", title: "testing")
-        locationManager.requestLocation()
-    }
     
     func alert(message: String, title: String){
         let alertController = UIAlertController(title: title, message:
@@ -39,6 +38,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
 //            locationManager.startUpdatingLocation()
         }
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -55,7 +55,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error){
         self.alert(message: "Error while updating location " + error.localizedDescription, title: "error")
     }
-
 
 }
 

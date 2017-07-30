@@ -18,7 +18,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     @IBAction func clickMe(_ sender: Any) {
         self.alert(message: "baker", title: "testing")
-//        locationManager.requestLocation()
+        locationManager.requestLocation()
     }
     
     func alert(message: String, title: String){
@@ -37,7 +37,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         if CLLocationManager.locationServicesEnabled() {
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
-            locationManager.startUpdatingLocation()
+//            locationManager.startUpdatingLocation()
         }
     }
 
@@ -46,11 +46,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let locValue:CLLocationCoordinate2D = manager.location!.coordinate
         // we should call an ednpoint here
-        print("locations = \(locValue.latitude) \(locValue.longitude)")
+        self.alert(message: "locations = \(locValue.latitude) \(locValue.longitude)", title: "location")
     }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error){
+        self.alert(message: "Error while updating location " + error.localizedDescription, title: "error")
+    }
+
 
 }
 

@@ -6,17 +6,29 @@
     "validateUpsert": true
   },
   "properties": {
-    "lat": {
+    "username": {
       "type": "string",
       "required": true
     },
-    "long": {
-      "type": "string",
+    "dailyTime": {
+      "type": "number",
       "required": true
     },
-    "done": {
-      "type": "boolean",
-      "default": false
+    "dailyPoints": {
+      "type": "number",
+      "required": true
+    } ,
+    "weeklyTime": {
+      "type": "number"
+    },
+    "weeklyPoints": {
+      "type": "number"
+    },
+    "monthlyTime": {
+      "type": "number"
+    },
+    "monthlyPoints": {
+      "type": "number"
     }
   },
   "validations": [],

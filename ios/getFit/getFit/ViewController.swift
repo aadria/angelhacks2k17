@@ -12,9 +12,10 @@ import UIKit
 import CoreLocation
 import MapKit
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, UITabBarDelegate {
 
     let locationManager = CLLocationManager()
+    let tabBar = UITabBar()
     
     //locationManager.requestLocation()
 
@@ -38,6 +39,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 //            locationManager.startUpdatingLocation()
         }
         
+        tabBar.delegate = self;
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -54,6 +57,25 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error){
         self.alert(message: "Error while updating location " + error.localizedDescription, title: "error")
     }
+    
+    func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        self.alert(message: "SHIT", title: "baker")
+    }
+    
+//    func getLeaderboardUsers(){
+//        let urlString = URL(string: "http://54.212.234.116:3000/api/users")
+//        if let url = urlString {
+//            let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+//                if error != nil {
+//                    print(error)
+//                } else {
+//                    if let usableData = data {
+//                        print(usableData) //JSONSerialization
+//                    }
+//                }
+//            }
+//            task.resume()
+//    }
 
 
 }

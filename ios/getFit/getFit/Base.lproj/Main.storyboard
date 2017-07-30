@@ -137,6 +137,17 @@
                                 <color key="textColor" red="0.14117647058823529" green="0.26666666666666666" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ks7-hK-P2u">
+                                <rect key="frame" x="0.0" y="687" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="" image="leaderboard (1)" badgeValue="3" id="aOu-XI-4lC"/>
+                                    <tabBarItem systemItem="favorites" id="IOS-hL-Ams"/>
+                                    <tabBarItem systemItem="more" id="opL-Et-VIA"/>
+                                </items>
+                                <color key="selectedImageTintColor" red="0.36848388310000002" green="0.59822408839999996" blue="0.90378076419999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="UKG-cc-f9J"/>
@@ -161,7 +172,7 @@
                                 <color key="textColor" red="0.18484149873256683" green="0.29438784718513489" blue="0.43932291865348816" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wooot!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21t-gH-Le9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Woot! Woot!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21t-gH-Le9">
                                 <rect key="frame" x="1" y="107" width="414" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="31"/>
@@ -413,9 +424,11 @@
     </scenes>
     <resources>
         <image name="getfit_logo" width="647" height="278"/>
+        <image name="leaderboard (1)" width="54" height="54"/>
         <image name="money_big" width="300" height="300"/>
         <image name="photo (1)" width="139" height="138"/>
         <image name="sponsor" width="779" height="620"/>
         <image name="user" width="704" height="699"/>
     </resources>
+    <color key="tintColor" red="0.36848388313743852" green="0.59822408842165065" blue="0.90378076424870468" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

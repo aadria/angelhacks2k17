@@ -6,14 +6,67 @@
 }
 
 .company-logo-container{
+    width: 100%;
+    background: white;
+}
+
+.company-logo-parent{
     width: 130px;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .company-logo-container img{
     width: 100%;
 }
 
+.activity-container{
+    width: 625px;
+    float: left;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.dashboard-container{
+    height: 100%;
+    background: #e5e5e5;
+    position: absolute;
+    width: 100%;
+}
+
+.activity-monitor-range{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.activity-item-container{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.activity-list-container img {
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid grey;
+}
+
+.activity-list-container {
+    background: white;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+
+.info-label{
+    color: grey;
+}
+
+.info-label i{
+    font-style: normal;
+    font-weight: bold;
+}

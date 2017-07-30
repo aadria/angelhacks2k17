@@ -1,0 +1,19 @@
+.company-logo{
+    background: url('/assets/nvidia_logo_horizontal.png');
+    background-size: 100%;
+    height: 100px;
+    width: 100%;
+}
+
+.company-logo-container{
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.company-logo-container img{
+    width: 100%;
+}
+

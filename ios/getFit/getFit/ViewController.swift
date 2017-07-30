@@ -15,11 +15,9 @@ import MapKit
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
     let locationManager = CLLocationManager()
+    
+    //locationManager.requestLocation()
 
-    @IBAction func clickMe(_ sender: Any) {
-        self.alert(message: "baker", title: "testing")
-        locationManager.requestLocation()
-    }
     
     func alert(message: String, title: String){
         let alertController = UIAlertController(title: title, message:

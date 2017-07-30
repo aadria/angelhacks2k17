@@ -1,0 +1,49 @@
+.login-container {
+    background: #24446F;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+}
+
+.logo-container {
+    width: 15%;
+    background: url("/assets/getfit_logo.png") no-repeat;
+    height: 115px;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.login-text-input{
+    color: white;
+    background: transparent;
+    padding: 15px;
+    width: 15%;
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+    margin: 20px auto;
+    outline: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  font-style: italic;
+}
+
+.action-button {
+    width: 15%;
+    margin-top: 40px;
+}
